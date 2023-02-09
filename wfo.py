@@ -3,8 +3,8 @@ import numpy as np
 import pandas as pd
 
 
-vbt.settings.data['alpaca']['key_id'] = 'PK4Q25GWBEYF7OVQNOUE'
-vbt.settings.data['alpaca']['secret_key'] = 'm3beKLmXaMdHtt6SZqutBP33Wzk179QTHbnhkRKe'
+vbt.settings.data['alpaca']['key_id'] = 'key_id'
+vbt.settings.data['alpaca']['secret_key'] = 'secret_key'
 
 alpacadata = vbt.AlpacaData.download('SPY', start='2017-01-01', end='2022-01-01', timeframe='1d', limit=10000)
 
